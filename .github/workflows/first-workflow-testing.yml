@@ -1,0 +1,11 @@
+- name: first-workflow-testing
+  on: workflow_dispatch
+  jobs:
+    first-job: 
+      runs-on: ubuntu-latest
+      steps:
+        - name: print greetings and byeeee and see you later 
+          run: |
+            echo "hi gagan"
+            echo "byeeeeeeeeee"
+            echo "see you later"
