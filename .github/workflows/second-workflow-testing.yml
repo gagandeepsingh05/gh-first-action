@@ -1,7 +1,5 @@
 name: first-workflow-testing
-
 on: workflow_dispatch
-
 jobs:
   first-job:
     runs-on: ubuntu-latest
