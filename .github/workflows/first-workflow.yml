@@ -4,6 +4,7 @@ jobs:
   first-job:
   runs-on: ubuntu-latest
     steps:
-      run: |
-        echo "hi good morning"
-        echo "byeeee byeeee"
+      - name: 
+        run: |
+          echo "hi good morning"
+          echo "byeeee byeeee"
